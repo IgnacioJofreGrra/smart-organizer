@@ -1,0 +1,247 @@
+<<<<<<< HEAD
+/* ==========================
+   🎨 Paleta accesible
+   ========================== */
+:root {
+  --color-primario: #400235;       /* Botones principales / Títulos */
+  --color-secundario: #F066F2;     /* Botón secundario */
+  --color-complementario: #A68A56; /* Botón alternativo */
+  --color-claro: #F2F2F2;          /* Fondo claro */
+  --color-oscuro: #0D0D0D;         /* Texto */
+}
+
+/* ==========================
+   🔤 Tipografía & Base
+   ========================== */
+body {
+  background-color: var(--color-claro);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-oscuro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: var(--color-primario);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* ==========================
+   🗂️ Contenedor principal
+   ========================== */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* ==========================
+   🔍 Input
+   ========================== */
+input {
+  width: 70%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-oscuro);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  border-color: var(--color-primario);
+}
+
+/* ==========================
+   🔘 Botones accesibles
+   ========================== */
+button {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background-color: var(--color-primario);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2b0124; /* contraste accesible */
+}
+
+.btn-secondary {
+  background-color: var(--color-secundario);
+  color: var(--color-oscuro);
+}
+
+.btn-secondary:hover {
+  background-color: #d155d7;
+}
+
+.btn-alt {
+  background-color: var(--color-complementario);
+  color: white;
+}
+
+.btn-alt:hover {
+  background-color: #8b7247;
+}
+
+/* ==========================
+   📋 Resultados
+   ========================== */
+#resultados {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+#lista-resultados {
+  background: var(--color-claro);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+=======
+/* ==========================
+   🎨 Paleta accesible
+   ========================== */
+:root {
+  --color-primario: #400235;       /* Botones principales / Títulos */
+  --color-secundario: #F066F2;     /* Botón secundario */
+  --color-complementario: #A68A56; /* Botón alternativo */
+  --color-claro: #F2F2F2;          /* Fondo claro */
+  --color-oscuro: #0D0D0D;         /* Texto */
+}
+
+/* ==========================
+   🔤 Tipografía & Base
+   ========================== */
+body {
+  background-color: var(--color-claro);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-oscuro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: var(--color-primario);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* ==========================
+   🗂️ Contenedor principal
+   ========================== */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* ==========================
+   🔍 Input
+   ========================== */
+input {
+  width: 70%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-oscuro);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  border-color: var(--color-primario);
+}
+
+/* ==========================
+   🔘 Botones accesibles
+   ========================== */
+button {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background-color: var(--color-primario);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2b0124; /* contraste accesible */
+}
+
+.btn-secondary {
+  background-color: var(--color-secundario);
+  color: var(--color-oscuro);
+}
+
+.btn-secondary:hover {
+  background-color: #d155d7;
+}
+
+.btn-alt {
+  background-color: var(--color-complementario);
+  color: white;
+}
+
+.btn-alt:hover {
+  background-color: #8b7247;
+}
+
+/* ==========================
+   📋 Resultados
+   ========================== */
+#resultados {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+#lista-resultados {
+  background: var(--color-claro);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+>>>>>>> 175db49a9bfe356904395033af855f200abeda53
